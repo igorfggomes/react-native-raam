@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "react-native-raam",
+    "slug": "react-native-raam",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
