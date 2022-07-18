@@ -1,12 +1,14 @@
 import React from 'react';
-import AppLoading from 'expo-app-loading';
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
 import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
 import { ThemeProvider } from 'styled-components/native';
+import * as SplashScreen from 'expo-splash-screen';
 
 import theme from './src/theme';
 
 import { SignIn } from '@screens/SignIn';
+
+SplashScreen.preventAutoHideAsync();
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -15,7 +17,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoading/>
+    SplashScreen.hideAsync();
   }
 
   return (
