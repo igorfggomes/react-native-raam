@@ -12,9 +12,15 @@ import { SignIn } from '@screens/SignIn';
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
+  const customFonts = {
+    DMSansRegular: require('./src/assets/fonts/DMSans-Regular.ttf'),
+    DMSerifDisplayRegular: require('./src/assets/fonts/DMSerifDisplay-Regular.ttf'),
+  }
+
   const [fontsLoaded] = useFonts({
     DMSans_400Regular,
-    DMSerifDisplay_400Regular
+    DMSerifDisplay_400Regular,
+    ...customFonts
   });
 
   if (!fontsLoaded) {
