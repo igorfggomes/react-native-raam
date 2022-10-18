@@ -5,13 +5,12 @@ Developed by [Igor Franklin Gonçalves Gomes](https://github.com/igorfggomes)
 
 ## 🖥️ Preview:
 
-<img src="https://s3.amazonaws.com/ofn-br-prod/public/images/enterprises/logos/276/thumb/logo.jpeg?1625792917"/>
+<img src="https://i.imgur.com/VS2aqbq.png"/>
 
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 
-To create the project I used [Expo](https://docs.expo.dev/), because of the practicality. In addition, I chose to use [React Native](https://reactnative.dev/docs/getting-started) as the development library. In this way, I did all the styling with [Styled Components](https://styled-components.com/). To make the back-end of the application, I chose [Firebase](https://firebase.google.com/docs). I managed the routes through the [React Navigation](https://reactnavigation.org/docs/getting-started/). For the project's commit pattern, I used the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+To create the project I used [Expo](https://docs.expo.dev/), because of the practicality. In addition, I chose to use [React Native](https://reactnative.dev/docs/getting-started) as the development library. In this way, I did all the styling with [Styled Components](https://styled-components.com/). I managed the routes through the [React Navigation](https://reactnavigation.org/docs/getting-started/). For the project's commit pattern, I used the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## 📋 Features:
 
